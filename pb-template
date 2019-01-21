@@ -35,7 +35,7 @@ lastname
 [/div]
 [/div][PTabbedContent]
 
-[PTab=[div title="friends" style="margin-left:-106px;"][attr="class","icarus_tab"][span][attr="class","th th-plus-3-o"][/span][/div]]
+[PTab=[div title="friends" style="margin-left:-106px;"][attr="class","icarus_tab"][span][attr="class","ion ion-ios-plus-outline"][/span][/div]]
 [div][attr="class","icarus_body"]
 
 [h1]friends[/h1]
@@ -61,7 +61,7 @@ look who's digging their own grave, [b]that is what they all say[/b], you'll dri
 
 
 
-[PTab=[div title="enemies"][attr="class","icarus_tab"][span][attr="class","th th-cancel-o"][/span][/div]]
+[PTab=[div title="enemies"][attr="class","icarus_tab"][span][attr="class","ion ion-ios-close-outline"][/span][/div]]
 
 [div][attr="class","icarus_body"]
 
@@ -91,7 +91,7 @@ look who's digging their own grave, that is what they all say, you'll drink your
 
 
 
-[PTab=[div title="lovers" style="margin-left:-53px; margin-top:53px;"][attr="class","icarus_tab"][span style="margin-top:1px;"][attr="class","th th-heart-1-o"][/span][/div]]
+[PTab=[div title="lovers" style="margin-left:-53px; margin-top:53px;"][attr="class","icarus_tab"][span style="margin-top:1px;"][attr="class","ion ion-ios-heart-outline"][/span][/div]]
 
 [div][attr="class","icarus_body"]
 
@@ -153,7 +153,8 @@ look who's digging their own grave, that is what they all say, you'll drink your
 [newclass=.icarus_body div::-webkit-scrollbar-track] background-color:var(--headerbg); border:0px;[/newclass]
 
 [newclass=.icarus_tab] height:26px; width:26px; position:relative; display:flex; align-items:center; justify-content:center; background-color:var(--headerbg); transform:rotate(45deg); border:1px solid var(--icarus_accent); cursor:pointer; [/newclass]
-[newclass=.icarus_tab span] height:12px; width:12px; position:absolute; display:flex; align-items:center; transform:rotate(-45deg)!important; [/newclass]
+[newclass=.icarus_tab span] height:0px; width:20px; position:absolute; display:flex; align-items:center; justify-content:center; transform:rotate(-45deg)!important; [/newclass]
+[newclass=.icarus_tab span:before]font-size:18px;[/newclass]
 [newclass=.icarus_credit] font:bold 7px roboto; margin-left:450px; [/newclass]
 [newclass=.icarus_credit a] font:bold 7px roboto!important; [/newclass]
 [newclass=.icarus_tracker] width:500px; border-radius:5px; overflow:hidden; position:relative; background-color:#eee; [/newclass]
@@ -164,7 +165,7 @@ look who's digging their own grave, that is what they all say, you'll drink your
 [newclass=.icarus_tracker .PT_table .PT_tabs_hover]color:var(--icarus_accent); background-color:transparent;position:absolute; z-index:9; padding:0px; transition:.25s ease;[/newclass]
 [newclass=.icarus_tracker .PT_table .PT_tabs_selected]color:var(--icarus_accent); background-color:transparent;position:absolute; z-index:9; padding:0px; transition:.25s ease;[/newclass]
 [newclass=.icarus_tracker .PT_table .PT_tabs_selected_hover]color:var(--icarus_accent); background-color:transparent;position:absolute; z-index:9; padding:0px; transition:.25s ease;[/newclass]
-[newclass=.th]speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale } @font-face { font-family: "honeybee";src:url("//dl.dropbox.com/s/0l8lnm6qy7vzwn7/honeybee.eot");src:url("//dl.dropbox.com/s/0l8lnm6qy7vzwn7/honeybee.eot?#iefix") format("embedded-opentype"),url("//dl.dropbox.com/s/504hc3yd80hv4ux/honeybee.woff") format("woff"),url("//dl.dropbox.com/s/2f5jbp3v8tjk5hf/honeybee.ttf") format("truetype"),url("//dl.dropbox.com/s/nyfekn9fqo1wid2/honeybee.svg#honeybee") format("svg");font-weight: normal;font-style: normal;[/newclass]
-[newclass=.th-cancel-o:before]content:"\e03b"; font-family:"honeybee";[/newclass]
-[newclass=.th-heart-1-o:before]content:"\e155"; font-family:"honeybee";[/newclass]
-[newclass=.th-plus-3-o:before]content:"\e2ad"; font-family:"honeybee";[/newclass]
+[newclass=.icarus_tracker .ion] font-family:"Ionicons";speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;text-rendering:auto;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale; } @font-face { font-family: "Ionicons"; src: url("//dl.dropbox.com/s/mapg7pw2au1g09k/ionicons.eot"); src: url("//dl.dropbox.com/s/mapg7pw2au1g09k/ionicons.eot") format("embedded-opentype"), url("//dl.dropbox.com/s/jttet8q0r121h5t/ionicons.woff") format("woff"), url("//dl.dropbox.com/s/jl3yj9nwp5lyl3g/ionicons.ttf") format("truetype"), url("//dl.dropbox.com/s/7c60myjcm9320b4/ionicons.svg") format("svg"); font-weight: normal; font-style: normal;[/newclass]
+[newclass=.icarus_tracker .ion-ios-plus-outline:before]font-family: "Ionicons";content:"\f48a";[/newclass]
+[newclass=.icarus_tracker .ion-ios-close-outline:before]font-family: "Ionicons";content:"\f405";[/newclass]
+[newclass=.icarus_tracker .ion-ios-heart-outline:before]font-family: "Ionicons";content:"\f442";[/newclass]
